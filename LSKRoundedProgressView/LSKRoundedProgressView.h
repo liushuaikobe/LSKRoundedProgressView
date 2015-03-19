@@ -17,6 +17,6 @@
 @property (nonatomic, assign) CGFloat progressWidth;
 
 @property (nonatomic, strong) UIColor *trackColor;
-@property (nonatomic, copy) UIColor *progressColor;
+@property (nonatomic, strong) UIColor *progressColor;
 
 @end
