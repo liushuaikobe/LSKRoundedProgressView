@@ -2,6 +2,7 @@
 Minimal (truly minimal :) rounded progress indicator, which is a clipped version of [KAProgressLabel](https://github.com/kirualex/KAProgressLabel).
 
 Demo(It may takes a little bit long time to load the gif):
+
 ![demo.gif](./demo.gif)
 
 
