@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Sat-kv-AQ3">
+                                <rect key="frame" x="198" y="320" width="204" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="nAo-VH-qkj"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="progressUpdate:" destination="vXZ-lx-hvc" eventType="valueChanged" id="ujI-3M-Pvh"/>
+                                </connections>
+                            </slider>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iqg-Xw-jMV" customClass="LSKRoundedProgressView">
+                                <rect key="frame" x="250" y="140" width="100" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="OXf-CH-XQ8"/>
+                                    <constraint firstAttribute="width" constant="100" id="Q5K-BX-yQe"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Sat-kv-AQ3" secondAttribute="centerX" id="Jz9-bG-wUN"/>
+                            <constraint firstAttribute="centerX" secondItem="Iqg-Xw-jMV" secondAttribute="centerX" id="Tpz-ly-gQw"/>
+                            <constraint firstItem="Sat-kv-AQ3" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="300" id="Wby-Oa-zx9"/>
+                            <constraint firstItem="Sat-kv-AQ3" firstAttribute="top" secondItem="Iqg-Xw-jMV" secondAttribute="bottom" constant="80" id="f7b-GL-DAE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progressSlider" destination="Sat-kv-AQ3" id="Nqw-LH-vxT"/>
+                        <outlet property="progressView" destination="Iqg-Xw-jMV" id="dls-o9-Hr1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
