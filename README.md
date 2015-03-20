@@ -11,9 +11,9 @@ Copy the `LSKRoundedProgressView/LSKRoundedProgressView.{h, m}` to your project.
 
 ### CocoaPods
 
-    pod ‘LSKRoundedProgressView’
+    pod 'LSKRoundedProgressView'
 
-Don’t forget to `#import “LSKRoundedProgressView.h”`
+Don’t forget to `#import "LSKRoundedProgressView.h"`
 
 ## Usage
 It behaves like a normal `UIView`.
