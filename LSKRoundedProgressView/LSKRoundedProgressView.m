@@ -51,12 +51,12 @@
     if (progress != _progress) {
         if (progress > 1.0f) {
             _progress = 1.0f;
-            _endDegree = 2 * M_PI;
+            _endDegree = 2 * M_PI - M_PI_2;
         } else {
             _progress = progress;
-            _endDegree = progress * 2 * M_PI;
+            _endDegree = progress * 2 * M_PI - M_PI_2;
         }
-        _startDegree = 0.0f;
+        _startDegree = 0.0f - M_PI_2;
         [self setNeedsDisplay];
     }
 }
