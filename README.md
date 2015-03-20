@@ -26,8 +26,8 @@ You set the progress value (a `CGFloat` value, range from 0.0 to 1.0) by operati
 
     @property (nonatomic, assign) BOOL clockWise;
     @property (nonatomic, assign) CGFloat progressWidth;
-    @property (nonatomic, strong) UIColor *trackColor;
-    @property (nonatomic, strong) UIColor *progressColor;
+    @property (nonatomic, copy) UIColor *trackColor;
+    @property (nonatomic, copy) UIColor *progressColor;
 
 ## Licence
 MIT
