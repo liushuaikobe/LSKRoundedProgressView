@@ -5,6 +5,15 @@ Demo(It may takes a little bit long time to load the gif):
 
 ![demo.gif](./demo.gif)
 
+## Install
+### Source Code
+Copy the `LSKRoundedProgressView/LSKRoundedProgressView.{h, m}` to your project.
+
+### CocoaPods
+
+    pod ‘LSKRoundedProgressView’
+
+Don’t forget to `#import “LSKRoundedProgressView.h”`
 
 ## Usage
 It behaves like a normal `UIView`.
