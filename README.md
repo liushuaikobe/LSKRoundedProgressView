@@ -3,7 +3,7 @@ Minimal (truly minimal :) rounded progress indicator, which is a clipped version
 
 Demo(It may takes a little bit long time to load the gif):
 
-![demo.gif](./demo.gif)
+![demo.png](./demo.png)
 
 ## Install
 ### Source Code
