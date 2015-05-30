@@ -1,3 +1,8 @@
 language: objective-c
 xcode_project: LSKRoundedProgressView.xcodeproj
 xcode_scheme: LSKRoundedProgressView
+
+script:
+    - pod lib lint
+    - xctool -project LSKRoundedProgressView.xcodeproj -sdk iphonesimulator -scheme LSKRoundedProgressView build
+    - xctool -project LSKRoundedProgressView.xcodeproj -sdk iphonesimulator -scheme LSKRoundedProgressView test
