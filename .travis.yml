@@ -2,6 +2,10 @@ language: objective-c
 xcode_project: LSKRoundedProgressView.xcodeproj
 xcode_scheme: LSKRoundedProgressView
 
+before_install:
+    - brew update
+    - brew upgrade xctool
+
 script:
     - pod lib lint
     - xctool -project LSKRoundedProgressView.xcodeproj -sdk iphonesimulator -scheme LSKRoundedProgressView build

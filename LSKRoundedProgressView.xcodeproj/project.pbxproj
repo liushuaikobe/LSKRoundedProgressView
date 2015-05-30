@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		586EC9F51B19C76500ECE5BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 586EC9F41B19C76500ECE5BF /* Default-568h@2x.png */; };
 		58D447321ABB04F8001F0CCF /* LSKRoundedProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D447311ABB04F8001F0CCF /* LSKRoundedProgressViewTests.m */; };
 		58D4474B1ABB05D5001F0CCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D447401ABB05D5001F0CCF /* AppDelegate.m */; };
-		58D4474C1ABB05D5001F0CCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D447421ABB05D5001F0CCF /* LaunchScreen.xib */; };
 		58D4474D1ABB05D5001F0CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D447441ABB05D5001F0CCF /* Main.storyboard */; };
 		58D4474E1ABB05D5001F0CCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D447461ABB05D5001F0CCF /* Images.xcassets */; };
 		58D447501ABB05D5001F0CCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D447481ABB05D5001F0CCF /* main.m */; };
@@ -28,13 +28,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		586EC9F41B19C76500ECE5BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		58D447121ABB04F8001F0CCF /* LSKRoundedProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSKRoundedProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D4472B1ABB04F8001F0CCF /* LSKRoundedProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSKRoundedProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D447301ABB04F8001F0CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58D447311ABB04F8001F0CCF /* LSKRoundedProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSKRoundedProgressViewTests.m; sourceTree = "<group>"; };
 		58D4473F1ABB05D5001F0CCF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Demo/AppDelegate.h; sourceTree = "<group>"; };
 		58D447401ABB05D5001F0CCF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Demo/AppDelegate.m; sourceTree = "<group>"; };
-		58D447431ABB05D5001F0CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		58D447451ABB05D5001F0CCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		58D447461ABB05D5001F0CCF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Demo/Images.xcassets; sourceTree = "<group>"; };
 		58D447481ABB05D5001F0CCF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../Demo/main.m; sourceTree = "<group>"; };
@@ -66,6 +66,7 @@
 		58D447091ABB04F8001F0CCF = {
 			isa = PBXGroup;
 			children = (
+				586EC9F41B19C76500ECE5BF /* Default-568h@2x.png */,
 				58D4473B1ABB04FF001F0CCF /* Demo */,
 				58D447141ABB04F8001F0CCF /* LSKRoundedProgressView */,
 				58D4472E1ABB04F8001F0CCF /* LSKRoundedProgressViewTests */,
@@ -135,7 +136,6 @@
 		58D447411ABB05D5001F0CCF /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
-				58D447421ABB05D5001F0CCF /* LaunchScreen.xib */,
 				58D447441ABB05D5001F0CCF /* Main.storyboard */,
 			);
 			name = Base.lproj;
@@ -222,9 +222,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58D4474C1ABB05D5001F0CCF /* LaunchScreen.xib in Resources */,
 				58D4474D1ABB05D5001F0CCF /* Main.storyboard in Resources */,
 				58D4474E1ABB05D5001F0CCF /* Images.xcassets in Resources */,
+				586EC9F51B19C76500ECE5BF /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +268,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		58D447421ABB05D5001F0CCF /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58D447431ABB05D5001F0CCF /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
 		58D447441ABB05D5001F0CCF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -368,6 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -378,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -436,6 +430,7 @@
 				58D447371ABB04F8001F0CCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58D447381ABB04F8001F0CCF /* Build configuration list for PBXNativeTarget "LSKRoundedProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +439,7 @@
 				58D4473A1ABB04F8001F0CCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
