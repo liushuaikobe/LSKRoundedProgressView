@@ -5,7 +5,7 @@
 
 Minimal (truly minimal :) rounded progress indicator, which is a clipped version of [KAProgressLabel](https://github.com/kirualex/KAProgressLabel).
 
-![demo.png](./demo.png)
+![demo.png](http://7xjdjy.com1.z0.glb.clouddn.com/LSKRoundedProgressViewDemo.png)
 
 ## Install
 ### Source Code
