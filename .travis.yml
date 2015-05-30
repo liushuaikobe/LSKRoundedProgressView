@@ -7,6 +7,9 @@ before_install:
     - brew upgrade xctool
 
 script:
+    - brew update
+    - brew upgrade xctool
+    - xctool -v
     - pod lib lint
     - xctool -project LSKRoundedProgressView.xcodeproj -sdk iphonesimulator -scheme LSKRoundedProgressView build
     - xctool -project LSKRoundedProgressView.xcodeproj -sdk iphonesimulator -scheme LSKRoundedProgressView test
