@@ -1,5 +1,7 @@
 # LSKRoundedProgressView
-![trvais](https://travis-ci.org/liushuaikobe/LSKRoundedProgressView.svg)
+[![trvais](https://travis-ci.org/liushuaikobe/LSKRoundedProgressView.svg)](https://travis-ci.org/liushuaikobe/LSKRoundedProgressView)
+![pod](https://cocoapod-badges.herokuapp.com/v/LSKRoundedProgressView/badge.png)
+![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Minimal (truly minimal :) rounded progress indicator, which is a clipped version of [KAProgressLabel](https://github.com/kirualex/KAProgressLabel).
 
