@@ -1,4 +1,6 @@
 # LSKRoundedProgressView
+![trvais](https://travis-ci.org/liushuaikobe/LSKRoundedProgressView.svg)
+
 Minimal (truly minimal :) rounded progress indicator, which is a clipped version of [KAProgressLabel](https://github.com/kirualex/KAProgressLabel).
 
 ![demo.png](./demo.png)
