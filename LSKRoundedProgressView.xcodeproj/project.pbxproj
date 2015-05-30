@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		586EC9F51B19C76500ECE5BF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 586EC9F41B19C76500ECE5BF /* Default-568h@2x.png */; };
+		587E28F71B19D26D000A850D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587E28F51B19D26D000A850D /* Default-568h@2x.png */; };
 		58D447321ABB04F8001F0CCF /* LSKRoundedProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D447311ABB04F8001F0CCF /* LSKRoundedProgressViewTests.m */; };
 		58D4474B1ABB05D5001F0CCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D447401ABB05D5001F0CCF /* AppDelegate.m */; };
 		58D4474D1ABB05D5001F0CCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D447441ABB05D5001F0CCF /* Main.storyboard */; };
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		586EC9F41B19C76500ECE5BF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		587E28F61B19D26D000A850D /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		58D447121ABB04F8001F0CCF /* LSKRoundedProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSKRoundedProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D4472B1ABB04F8001F0CCF /* LSKRoundedProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSKRoundedProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D447301ABB04F8001F0CCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,7 +66,6 @@
 		58D447091ABB04F8001F0CCF = {
 			isa = PBXGroup;
 			children = (
-				586EC9F41B19C76500ECE5BF /* Default-568h@2x.png */,
 				58D4473B1ABB04FF001F0CCF /* Demo */,
 				58D447141ABB04F8001F0CCF /* LSKRoundedProgressView */,
 				58D4472E1ABB04F8001F0CCF /* LSKRoundedProgressViewTests */,
@@ -136,6 +135,7 @@
 		58D447411ABB05D5001F0CCF /* Base.lproj */ = {
 			isa = PBXGroup;
 			children = (
+				587E28F51B19D26D000A850D /* Default-568h@2x.png */,
 				58D447441ABB05D5001F0CCF /* Main.storyboard */,
 			);
 			name = Base.lproj;
@@ -224,7 +224,7 @@
 			files = (
 				58D4474D1ABB05D5001F0CCF /* Main.storyboard in Resources */,
 				58D4474E1ABB05D5001F0CCF /* Images.xcassets in Resources */,
-				586EC9F51B19C76500ECE5BF /* Default-568h@2x.png in Resources */,
+				587E28F71B19D26D000A850D /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +268,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		587E28F51B19D26D000A850D /* Default-568h@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587E28F61B19D26D000A850D /* Base */,
+			);
+			name = "Default-568h@2x.png";
+			sourceTree = "<group>";
+		};
 		58D447441ABB05D5001F0CCF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
