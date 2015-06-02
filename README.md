@@ -2,6 +2,7 @@
 [![trvais](https://travis-ci.org/liushuaikobe/LSKRoundedProgressView.svg)](https://travis-ci.org/liushuaikobe/LSKRoundedProgressView)
 ![pod](https://cocoapod-badges.herokuapp.com/v/LSKRoundedProgressView/badge.png)
 ![license](https://img.shields.io/badge/license-MIT-blue.svg)
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/liushuaikobe/lskroundedprogressview/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 Minimal (truly minimal :) rounded progress indicator, which is a clipped version of [KAProgressLabel](https://github.com/kirualex/KAProgressLabel).
 
